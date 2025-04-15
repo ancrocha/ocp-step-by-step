@@ -12,3 +12,4 @@ ocp-dns.ocp.lan.          IN      A       192.168.88.11
 ocp-registry.ocp.lan.     IN      A       192.168.88.12
 ocp-lbinternal.ocp.lan.   IN      A       192.168.88.13
 
+ocp-bootstrap.ocp.lan.    IN      A       192.168.88.200

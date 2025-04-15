@@ -12,3 +12,4 @@ $TTL    604800
 11      IN    PTR    ocp-dns.ocp.lan.
 12      IN    PTR    ocp-registry.ocp.lan.
 13      IN    PTR    ocp-lbinternal.ocp.lan.
+200     IN    PTR    ocp-bootstrap.ocp.lan.
