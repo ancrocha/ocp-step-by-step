@@ -9,5 +9,6 @@ $TTL    604800
         IN      NS      ocp-dns
 
 ocp-dns.ocp.lan.          IN      A       192.168.88.11
-ocp-registry.ocp.lan.          IN      A       192.168.88.12
+ocp-registry.ocp.lan.     IN      A       192.168.88.12
+ocp-lbinternal.ocp.lan.   IN      A       192.168.88.13
 
