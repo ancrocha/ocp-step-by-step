@@ -13,3 +13,7 @@ ocp-registry.ocp.lan.     IN      A       192.168.88.12
 ocp-lbinternal.ocp.lan.   IN      A       192.168.88.13
 
 ocp-bootstrap.ocp.lan.    IN      A       192.168.88.200
+
+; OpenShift Internal - Load balancer
+api.lab.ocp.lan.        IN    A    192.168.88.13
+api-int.lab.ocp.lan.    IN    A    192.168.88.13
