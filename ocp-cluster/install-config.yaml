@@ -22,4 +22,3 @@ platform:
 fips: false
 pullSecret: '{"auths":....'
 sshKey: "ssh-ed25519 ...."
-~                                                                                               
