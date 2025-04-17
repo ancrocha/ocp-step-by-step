@@ -10,10 +10,21 @@ $TTL    604800
 
 ocp-dns.ocp.lan.          IN      A       192.168.88.11
 ocp-registry.ocp.lan.     IN      A       192.168.88.12
-ocp-lbinternal.ocp.lan.   IN      A       192.168.88.13
+ocp-lbinternal.ocp.lan.   IN      A       192.168.88.5
+ocp-lbexternal.ocp.lan.   IN      A       192.168.88.6
+ocp-dhcp.ocp.lan.         IN      A       192.168.88.10
 
-ocp-bootstrap.ocp.lan.    IN      A       192.168.88.200
-
+;
+ocp-bootstrap.lab.ocp.lan.    IN      A       192.168.88.200
+ocp-cp-1.lab.ocp.lan.         IN      A       192.168.88.201
+ocp-cp-2.lab.ocp.lan.         IN      A       192.168.88.202
+ocp-cp-3.lab.ocp.lan.         IN      A       192.168.88.203
+ocp-w-1.lab.ocp.lan.          IN      A       192.168.88.204
+ocp-w-2.lab.ocp.lan.          IN      A       192.168.88.205
+;
 ; OpenShift Internal - Load balancer
-api.lab.ocp.lan.        IN    A    192.168.88.13
-api-int.lab.ocp.lan.    IN    A    192.168.88.13
+api.lab.ocp.lan.        IN    A    192.168.88.5
+api-int.lab.ocp.lan.    IN    A    192.168.88.5
+
+; OpenShift External - Load balancer
+*.apps.lab.ocp.lan.     IN    A    192.168.88.6
